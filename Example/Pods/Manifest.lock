@@ -1,0 +1,16 @@
+PODS:
+  - FeedMediaSdk (0.1.0)
+
+DEPENDENCIES:
+  - FeedMediaSdk (from `../`)
+
+EXTERNAL SOURCES:
+  FeedMediaSdk:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FeedMediaSdk: cebca96cb179e16a4dab911114648afb565e05a1
+
+PODFILE CHECKSUM: 44ce14b3f56492e2a49cd7583558445f0bb88979
+
+COCOAPODS: 1.2.0

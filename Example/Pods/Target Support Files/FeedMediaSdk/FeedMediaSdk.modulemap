@@ -1,0 +1,6 @@
+framework module FeedMediaSdk {
+  umbrella header "FeedMediaSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

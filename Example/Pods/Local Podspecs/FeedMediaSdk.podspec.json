@@ -1,0 +1,22 @@
+{
+  "name": "FeedMediaSdk",
+  "version": "0.1.0",
+  "summary": "A short description of FeedMediaSdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Eric Lambrecht/FeedMediaSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Eric Lambrecht": "eric@feed.fm"
+  },
+  "source": {
+    "git": "https://github.com/Eric Lambrecht/FeedMediaSdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FeedMediaSdk/Classes/**/*"
+}

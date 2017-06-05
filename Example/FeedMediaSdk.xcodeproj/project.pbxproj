@@ -17,8 +17,8 @@
 
 /* Begin PBXFileReference section */
 		06867A76AE351172E32F3E2E /* Pods_FeedMediaSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedMediaSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A7A7CE8D9C9F1C7BAD4074E /* FeedMediaSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FeedMediaSdk.podspec; path = ../FeedMediaSdk.podspec; sourceTree = "<group>"; };
-		47E0F0E438610C5B78FBE86F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A7A7CE8D9C9F1C7BAD4074E /* FeedMediaSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FeedMediaSdk.podspec; path = ../FeedMediaSdk.podspec; sourceTree = "<group>"; };
+		47E0F0E438610C5B78FBE86F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		53C391DC16E0DC3E12B15561 /* Pods-FeedMediaSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedMediaSdk_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeedMediaSdk_Tests/Pods-FeedMediaSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -30,7 +30,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		9054BE54876C5A0D4EF69FCE /* Pods-FeedMediaSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedMediaSdk_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedMediaSdk_Tests/Pods-FeedMediaSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B9B579EEA00BE4D563DE3C5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9B579EEA00BE4D563DE3C5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +151,7 @@
 				ORGANIZATIONNAME = "Eric Lambrecht";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = PAGEPFEF9A;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -332,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9054BE54876C5A0D4EF69FCE /* Pods-FeedMediaSdk_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = PAGEPFEF9A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -355,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53C391DC16E0DC3E12B15561 /* Pods-FeedMediaSdk_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = PAGEPFEF9A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
